@@ -10,7 +10,7 @@
 	"compileType": "game",
 	"libVersion": "game",
 	"appid": "wx6ac3f5090a6b99c5",
-	"projectname": "3dTest",
+	"projectname": "wgame-three.js",
 	"condition": {
 		"search": {
 			"current": -1,
