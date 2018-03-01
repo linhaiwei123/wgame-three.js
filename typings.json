@@ -1,0 +1,5 @@
+{
+  "globalDevDependencies": {
+    "tweenjs": "registry:dt/tweenjs#0.6.0+20160510010627"
+  }
+}

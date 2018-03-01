@@ -1,0 +1,8 @@
+{
+  "resolution": "main",
+  "tree": {
+    "src": "https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/50387d40462301d54cda62e24d3b2ee46540f24a/physijs/index.d.ts",
+    "raw": "registry:dt/physijs#0.0.0+20160510010627",
+    "typings": "https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/50387d40462301d54cda62e24d3b2ee46540f24a/physijs/index.d.ts"
+  }
+}
