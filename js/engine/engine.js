@@ -74,13 +74,13 @@ export default class Engine {
             this.raycaster.setFromCamera({x:coordX,y:coordY},this.mainCamera);
             let intersects = this.raycaster.intersectObjects(this.scene.children,true);
             for(let intersect of intersects) {
-                intersect.object.dispatchEvent(event);
+                intersect.object.dispatchEvent(event.type,event);
             }
            }
        }
        event.type = originType;
        delete event.touchType;
-       this.scene && this.scene.dispatchEvent(event);
+       this.scene && this.scene.dispatchEvent(event.type,event);
     }
 
     _dt = 0;
